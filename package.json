@@ -1,0 +1,42 @@
+{
+    "name": "exclua",
+    "displayName": "Lua exclua",
+    "description": "ext for lua snippet and execute",
+    "version": "0.0.1",
+    "publisher": "new-8s",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.neweis.exclua"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [{
+            "command": "extension.neweis.exclua",
+            "title": "Exc Lua"
+        }],
+        "keybindings": [
+			{
+				"command": "extension.neweis.exclua",
+				"key": "ctrl+1",
+				"when": "editorTextFocus"
+			}
+		]
+    },
+    "scripts": {
+        "vscode:prepublish": "tsc -p ./",
+        "compile": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0",
+        "mocha": "^2.3.3",
+        "@types/node": "^6.0.40",
+        "@types/mocha": "^2.2.32"
+    }
+}
