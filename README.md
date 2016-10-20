@@ -1,65 +1,1 @@
-# lua-test-ext README
-
-This is the README for your extension "lua-test-ext". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+# Lua exclua - Lua extension  for vscode This is the README for the vscode extension "lua-test-ext". You can edit the project by vscode directly and build this project by tsc.## FeaturesThis extension provide your vscode to run a lua script directly and see the result in your output console.> Tip: The output is named 'Lua exclua output' .## RequirementsVSCode  & TSC & node_modules.## Extension SettingsYou need to build the project and copy the out file under your vscode extension ## Known IssuesNothing now## Release Notes### 0.0.1Support for keyboard. You can just press ctrl+1 to run your lua script and see the output in your vscode.-----------------------------------------------------------------------------------------------------------### For more information* [My Website](http://www.new8s.net)* [My Github](http://github.com/Darknessssssss)also you can email me :  yifeidong@outlook.com**Enjoy!**
