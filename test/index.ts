@@ -20,5 +20,3 @@ testRunner.configure({
 });
 
 module.exports = testRunner;
-
-console.log("test")
